@@ -20,7 +20,7 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-   <div class="expanded row header">
+   <div class="row header">
       <div id="teszt" class="large-12 columns">
 
          <div class="site-branding">
@@ -72,3 +72,6 @@
    </div><!-- .row -->
 
 	<div id="content" class="site-content">
+      <div class="row">
+
+      

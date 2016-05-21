@@ -9,7 +9,7 @@
 ?>
 
 	</div><!-- #content -->
-
+</div><!-- row - main cont -->
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url(__('https://wordpress.org/', 'speed')); ?>"><?php printf(esc_html__('Proudly powered by %s', 'speed'), 'WordPress'); ?></a>

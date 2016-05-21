@@ -1,6 +1,6 @@
 <?php
 /**
- * Content wrappers
+ * Content wrappers.
  *
  * This template can be overridden by copying it to yourtheme/woocommerce/global/wrapper-end.php.
  *
@@ -10,38 +10,13 @@
  * be bumped and the readme will list any important changes.
  *
  * @see 	    http://docs.woothemes.com/document/template-structure/
+ *
  * @author 		WooThemes
- * @package 	WooCommerce/Templates
+ *
  * @version     1.6.4
  */
-
-if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly
+if (!defined('ABSPATH')) {
+    exit; // Exit if accessed directly
 }
-
-$template = get_option( 'template' );
-
-switch( $template ) {
-	case 'twentyeleven' :
-		echo '</div></div>';
-		break;
-	case 'twentytwelve' :
-		echo '</div></div>';
-		break;
-	case 'twentythirteen' :
-		echo '</div></div>';
-		break;
-	case 'twentyfourteen' :
-		echo '</div></div></div>';
-		get_sidebar( 'content' );
-		break;
-	case 'twentyfifteen' :
-		echo '</div></div>';
-		break;
-	case 'twentysixteen' :
-		echo '</div></main>';
-		break;
-	default :
-		echo '</div></div>';
-		break;
-}
+?>
+</div></div>
