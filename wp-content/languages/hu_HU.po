@@ -1,14 +1,14 @@
-# Translation of Development (4.5.x) in Hungarian
-# This file is distributed under the same license as the Development (4.5.x) package.
+# Translation of 4.5.x in Hungarian
+# This file is distributed under the same license as the 4.5.x package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-12 21:28:21+0000\n"
+"PO-Revision-Date: 2016-05-03 06:30:25+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.1.0-alpha\n"
-"Project-Id-Version: Development (4.5.x)\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
+"Project-Id-Version: 4.5.x\n"
 
 #. translators: Translate this to the correct language tag for your locale, see
 #. https://www.w3.org/International/articles/language-tags/ for reference. Do
@@ -172,7 +172,7 @@ msgstr "%1$s %2$s %3$s %4$s hírforrás"
 msgid "<strong>ERROR</strong>: Invalid username, email address or incorrect password."
 msgstr "<strong>HIBA</strong>: Érvénytelen felhasználónév, e-mail cím, vagy jelszó."
 
-#: wp-includes/post-template.php:1539
+#: wp-includes/post-template.php:1536
 msgctxt "post password form"
 msgid "Enter"
 msgstr "Enter"
@@ -212,11 +212,11 @@ msgstr "Válasszunk logót"
 
 #. translators: 1: PHP class name, 2: PHP parent class name, 3: version number,
 #. 4: __construct() method
-#: wp-includes/functions.php:3721
+#: wp-includes/functions.php:3717
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "A meghívott %1$s felépítő metódusa %2$s osztályban <strong>elavult</strong> %3$s óta. Használjuk inkább %4$s hívást."
 
-#: wp-includes/functions.php:5046
+#: wp-includes/functions.php:5042
 msgid "Close dialog"
 msgstr "Párbeszéd bezárása"
 
@@ -351,11 +351,11 @@ msgid "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 msgstr "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 
 #. translators: %s: Codex URL
-#: wp-includes/functions.php:3898
+#: wp-includes/functions.php:3894
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Bővebb információ a <a href=\"%s\">Hibakeresés a WordPress-ben</a> helyen."
 
-#: wp-includes/functions.php:3899
+#: wp-includes/functions.php:3895
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/Debugging_in_WordPress"
 
@@ -564,38 +564,38 @@ msgstr "Honlap nyelve:"
 msgid "Author:"
 msgstr "Szerző:"
 
-#: wp-includes/wp-db.php:1538
+#: wp-includes/wp-db.php:1546
 msgid "Are you sure that you have typed the correct hostname?"
 msgstr "A kiszolgáló neve helyesen lett megadva?"
 
-#: wp-includes/wp-db.php:1539 wp-includes/wp-db.php:1642
+#: wp-includes/wp-db.php:1547 wp-includes/wp-db.php:1650
 msgid "Are you sure that the database server is running?"
 msgstr "Üzemel az adatbázis-szerver?"
 
 #. translators: %s: support forums URL
-#: wp-includes/wp-db.php:1544 wp-includes/wp-db.php:1648
+#: wp-includes/wp-db.php:1552 wp-includes/wp-db.php:1656
 msgid "If you&#8217;re unsure what these terms mean you should probably contact your host. If you still need help you can always visit the <a href=\"%s\">WordPress Support Forums</a>."
 msgstr "Amennyiben bizonytalanok vagyunk abban, hogy mit jelentenek ezek a kifejezések, lépjünk kapcsolatba a tárhely-szolgáltatónkkal. Segítségért bármikor felkereshetjük a <a href=\"%s\">WordPress Támogatói Fórum</a> oldalát."
 
-#: wp-includes/wp-db.php:1633
+#: wp-includes/wp-db.php:1641
 msgid "Error reconnecting to the database"
 msgstr "Nem sikerült újrakapcsolódni az adatbázishoz."
 
 #. translators: %s: database host
-#: wp-includes/wp-db.php:1637
+#: wp-includes/wp-db.php:1645
 msgid "This means that we lost contact with the database server at %s. This could mean your host&#8217;s database server is down."
 msgstr "Ez azt jelenti, hogy a kapcsolat megszakadt az adatbázis kiszolgálóval %s-kor. Ennek egyik lehetséges oka, hogy az adatbázis kiszolgáló áll."
 
-#: wp-includes/wp-db.php:1643
+#: wp-includes/wp-db.php:1651
 msgid "Are you sure that the database server is not under particularly heavy load?"
 msgstr "Biztosak vagyunk benne, hogy az adatbázis kiszolgáló nincs erős megterhelés alatt?"
 
 #. translators: 1: wp-config.php. 2: database host
-#: wp-includes/wp-db.php:1531
+#: wp-includes/wp-db.php:1539
 msgid "This either means that the username and password information in your %1$s file is incorrect or we can&#8217;t contact the database server at %2$s. This could mean your host&#8217;s database server is down."
 msgstr "Ez azt jelenti, hogy a %1$s fájlban megadott felhasználónév és jelszó nem megfelelő, vagy nem lehet a(z) %2$s adatbázis-szerverrel kapcsolatot létesíteni, mert a tárhely-szolgáltató által üzemeltetett adatbázis-szerver üzemen kívül van."
 
-#: wp-includes/wp-db.php:1537
+#: wp-includes/wp-db.php:1545
 msgid "Are you sure you have the correct username and password?"
 msgstr "A felhasználónév és a jelszó megfelelő?"
 
@@ -1106,7 +1106,7 @@ msgstr "Menü beállítások"
 
 #: wp-login.php:734
 msgid "Registration confirmation will be emailed to you."
-msgstr "A regisztráció megerősítéséhez e-mail-t fogunk küldeni."
+msgstr "A regisztráció megerősítéséhez egy e-mailt fogunk küldeni."
 
 #: wp-includes/script-loader.php:392
 msgid "Hide"
@@ -1196,7 +1196,7 @@ msgstr "A felhasználónév ne haladja meg a 60 karakternyi hosszúságot."
 
 #: wp-includes/pluggable.php:1741
 msgid "To set your password, visit the following address:"
-msgstr "A jelszóbeállításhoz a következő címet kell felkeresni:"
+msgstr "A jelszó megadásához a következő címet kell felkeresni:"
 
 #: wp-includes/customize/class-wp-customize-nav-menu-control.php:51
 msgid "Add or remove menu items"
@@ -1261,7 +1261,7 @@ msgid "Preformatted"
 msgstr "Előformázott"
 
 #. translators: 1: PHP class name, 2: version number, 3: __construct() method
-#: wp-includes/functions.php:3725
+#: wp-includes/functions.php:3721
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "A(z) %1$s meghívott szerkesztő metódus a %2$s verzió óta <strong>elavult</strong>. Helyette a %3$s használata javasolt."
 
@@ -1844,7 +1844,7 @@ msgid "Site Preview"
 msgstr "Honlap előnézet"
 
 #. translators: revision date format, see http://php.net/date
-#: wp-includes/post-template.php:1628 wp-includes/post-template.php:1664
+#: wp-includes/post-template.php:1625 wp-includes/post-template.php:1661
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
 msgstr "Y-m-d  H:i"
@@ -3206,7 +3206,7 @@ msgid "https://wordpress.org/"
 msgstr "https://hu.wordpress.org/"
 
 #: wp-includes/admin-bar.php:145 wp-includes/wp-db.php:1085
-#: wp-includes/wp-db.php:1545 wp-includes/wp-db.php:1649 wp-login.php:789
+#: wp-includes/wp-db.php:1553 wp-includes/wp-db.php:1657 wp-login.php:789
 msgid "https://wordpress.org/support/"
 msgstr "http://kozosseg.wphu.org/"
 
@@ -3555,7 +3555,7 @@ msgstr "A sablon \"%s\" könyvtára nem létezik."
 msgid "ERROR: This is not a valid feed template."
 msgstr "HIBA: Érvénytelen  "
 
-#: wp-includes/post-template.php:1538
+#: wp-includes/post-template.php:1535
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Ez a tartalom jelszóval védett, megtekintéséhez alul meg kell adni a jelszót:"
 
@@ -3658,7 +3658,7 @@ msgstr[1] "%s év"
 msgid "#%d (no title)"
 msgstr "#%d (cím nélkül)"
 
-#: wp-includes/post-template.php:1738
+#: wp-includes/post-template.php:1735
 msgid "JavaScript must be enabled to use this feature."
 msgstr "A funkció használatához be kell kapcsolni a JavaScriptet."
 
@@ -3702,13 +3702,13 @@ msgid "<strong>ERROR</strong>: Couldn&#8217;t register you&hellip; please contac
 msgstr "<strong>HIBA</strong>: Nem sikerült a regisztráció, lépjünk kapcsolatba a <a href=\"mailto:%s\">webmesterrel</a> !"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1630
+#: wp-includes/post-template.php:1627
 msgctxt "post revision title extra"
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatikus mentés]"
 
 #. translators: 1: date
-#: wp-includes/post-template.php:1632
+#: wp-includes/post-template.php:1629
 msgctxt "post revision title extra"
 msgid "%1$s [Current Revision]"
 msgstr "%1$s [Aktuális változat]"
@@ -3731,13 +3731,13 @@ msgstr "A megadott email cím helyes? A megadott email cím: %s. Amennyiben nem 
 msgid "The site you were looking for, %s, does not exist, but you can create it now!"
 msgstr "A keresett %s honlap nem található, de most létrehozhatunk egyet."
 
-#: wp-includes/functions.php:5059
+#: wp-includes/functions.php:5055
 msgid "The login page will open in a new window. After logging in you can close it and return to this page."
 msgstr "A bejelentkező oldal új ablakban fog megnyílni. Bejelentkezés után bezárható, majd visszatérhetünk erre az oldalra."
 
 #. translators: post revision title: 1: author avatar, 2: author name, 3: time
 #. ago, 4: date
-#: wp-includes/post-template.php:1674
+#: wp-includes/post-template.php:1671
 msgctxt "post revision title"
 msgid "%1$s %2$s, %3$s ago (%4$s)"
 msgstr "%1$s %2$s, %3$s ezelőtt (%4$s)"
@@ -3761,7 +3761,7 @@ msgctxt "submit button"
 msgid "Search"
 msgstr "Keresés"
 
-#: wp-includes/functions.php:5057 wp-includes/script-loader.php:448
+#: wp-includes/functions.php:5053 wp-includes/script-loader.php:448
 msgid "Session expired"
 msgstr "Lejárt a munkamenet"
 
@@ -4813,12 +4813,12 @@ msgstr "Támogató fórum"
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/functions.php:3598
+#: wp-includes/functions.php:3594
 msgid "Database Error"
 msgstr "Adatbázis hiba"
 
-#: wp-includes/functions.php:3602 wp-includes/ms-load.php:286
-#: wp-includes/wp-db.php:1527
+#: wp-includes/functions.php:3598 wp-includes/ms-load.php:286
+#: wp-includes/wp-db.php:1535
 msgid "Error establishing a database connection"
 msgstr "Hiba az adatbázis-kapcsolat létrehozása során"
 
@@ -4987,11 +4987,11 @@ msgstr "A feltételes lekérdezési címkék nem működnek a lekérdezés futta
 msgid "The user is already active."
 msgstr "Ez a felhasználó már aktív."
 
-#: wp-includes/functions.php:3901
+#: wp-includes/functions.php:3897
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s <strong>helytelenül került meghívásra</strong>. %2$s %3$s"
 
-#: wp-includes/functions.php:3896
+#: wp-includes/functions.php:3892
 msgid "(This message was added in version %s.)"
 msgstr "(Ez az üzenet a %s verzióban került hozzáadásra.)"
 
@@ -5152,11 +5152,11 @@ msgstr "Az új jelszó megerősítése"
 
 #: wp-login.php:329
 msgid "To reset your password, visit the following address:"
-msgstr "Új jelszó generálásához kattintás a következő hivatkozásra:"
+msgstr "Az új jelszó megadásához a következő címre kell ellátogatni:"
 
 #: wp-login.php:618 wp-login.php:656
 msgid "Reset Password"
-msgstr "Jelszó újragenerálás"
+msgstr "Új jelszó létrehozása"
 
 #: wp-login.php:595
 msgid "The passwords do not match."
@@ -5176,11 +5176,11 @@ msgstr "Valaki új jelszó generálását kérte az alábbi felhasználói fiók
 
 #: wp-login.php:328
 msgid "If this was a mistake, just ignore this email and nothing will happen."
-msgstr "Amennyiben nem kértük, egyszerűen figyelmen kívül kell hagyni ezt az emailt, és semmi sem fog történni."
+msgstr "Amennyiben ezen e-mail címzettje nem érintett a kérdésben, úgy elnézést kérünk, a levelet figyelmen kívül kell hagyni, törölni lehet - ez esetben nem fog semmi sem történni."
 
 #: wp-login.php:618
 msgid "Enter your new password below."
-msgstr "Az új jelszót alul meg kell adni."
+msgstr "Az új jelszót alul kell megadni."
 
 #: wp-includes/post-formats.php:68
 msgid "Invalid post."
@@ -6196,7 +6196,7 @@ msgstr "új WordPress Loop"
 msgid "Last updated"
 msgstr "Legutóbbi frissítés"
 
-#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1442
+#: wp-includes/deprecated.php:1840 wp-includes/post-template.php:1439
 msgid "Missing Attachment"
 msgstr "Hiányzó melléklet"
 
@@ -6252,67 +6252,67 @@ msgstr ", "
 msgid "%s is a protected WP option and may not be modified"
 msgstr "%s egy védett WP beállítás, nem nagyon módosítható"
 
-#: wp-includes/functions.php:1891 wp-includes/functions.php:2151
+#: wp-includes/functions.php:1888 wp-includes/functions.php:2147
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "%s könyvtár létrehozása sikertelen. Ellenőrizzük, hogy írható-e a szülő könyvtár a szerveren."
 
-#: wp-includes/functions.php:2115
+#: wp-includes/functions.php:2111
 msgid "Empty filename"
 msgstr "Üres fájlnév"
 
-#: wp-includes/functions.php:2157
+#: wp-includes/functions.php:2153
 msgid "Could not write file %s"
 msgstr "%s fájl nem írható"
 
-#: wp-includes/functions.php:2498
+#: wp-includes/functions.php:2494
 msgid "You are attempting to log out of %s"
 msgstr "%s felhasználói fiókból történő kijelentkezés"
 
-#: wp-includes/functions.php:2507
+#: wp-includes/functions.php:2503
 msgid "WordPress Failure Notice"
 msgstr "WordPress hibajelentés"
 
-#: wp-includes/functions.php:2500
+#: wp-includes/functions.php:2496
 msgid "Do you really want to <a href='%s'>log out</a>?"
 msgstr "<a href='%s'>Kijelentkezés a felhasználói fiókból?</a>"
 
-#: wp-includes/functions.php:2504 wp-includes/ms-functions.php:1915
+#: wp-includes/functions.php:2500 wp-includes/ms-functions.php:1915
 msgid "Please try again."
 msgstr "Újra kellene próbálkozni."
 
-#: wp-includes/functions.php:2626
+#: wp-includes/functions.php:2622
 msgid "&laquo; Back"
 msgstr "&laquo; Vissza"
 
-#: wp-includes/functions.php:2638 wp-load.php:92
+#: wp-includes/functions.php:2634 wp-load.php:92
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress &rsaquo; hiba"
 
-#: wp-includes/functions.php:3662 wp-includes/functions.php:3786
+#: wp-includes/functions.php:3658 wp-includes/functions.php:3782
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s <strong>használata nem támogatott</strong> a %2$s verzió óta! Ezt javasoljuk helyette: %3$s."
 
-#: wp-includes/functions.php:3664 wp-includes/functions.php:3788
+#: wp-includes/functions.php:3660 wp-includes/functions.php:3784
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s már <strong>használata nem támogatott</strong> a %2$s verzió óta, és nincs helyette javaslatunk."
 
-#: wp-includes/functions.php:3846
+#: wp-includes/functions.php:3842
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s meghívás <strong>használata nem támogatott</strong> lehetőség a %2$s verzió óta. %3$s"
 
-#: wp-includes/functions.php:3848
+#: wp-includes/functions.php:3844
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s meghívás <strong>használata nem támogatott</strong> lehetőség a %2$s verzió óta, és nincs helyette javaslatunk."
 
-#: wp-includes/functions.php:4408
+#: wp-includes/functions.php:4404
 msgid "Select a city"
 msgstr "Város kiválasztása"
 
-#: wp-includes/functions.php:4453 wp-includes/functions.php:4457
+#: wp-includes/functions.php:4449 wp-includes/functions.php:4453
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:4461
+#: wp-includes/functions.php:4457
 msgid "Manual Offsets"
 msgstr "Eltérés kézi beállítása"
 
@@ -6964,7 +6964,7 @@ msgstr "[%1$s] Kérem moderálását: \"%2$s\""
 
 #: wp-includes/pluggable.php:1676
 msgid "Password Lost and Changed for user: %s"
-msgstr "%s felhasználó jelszava megváltoztatva"
+msgstr "%s felhasználó elveszett jelszavát sikeresen megváltoztattuk."
 
 #: wp-includes/pluggable.php:1680
 msgid "[%s] Password Lost/Changed"
@@ -6995,23 +6995,23 @@ msgstr "Magán: %s"
 msgid "There is no excerpt because this is a protected post."
 msgstr "Nincs kivonat, mert ez egy védett tartalmú bejegyzés."
 
-#: wp-includes/post-template.php:838
+#: wp-includes/post-template.php:835
 msgid "Next page"
 msgstr "Következő oldal"
 
-#: wp-includes/post-template.php:839
+#: wp-includes/post-template.php:836
 msgid "Previous page"
 msgstr "Előző oldal"
 
-#: wp-includes/post-template.php:1277
+#: wp-includes/post-template.php:1274
 msgid "Home"
 msgstr "Kezdőlap"
 
-#: wp-includes/post-template.php:1681
+#: wp-includes/post-template.php:1678
 msgid "%1$s [Autosave]"
 msgstr "%1$s [Automatikus mentés]"
 
-#: wp-includes/post-template.php:1682
+#: wp-includes/post-template.php:1679
 msgid "%1$s [Current Revision]"
 msgstr "%1$s  [Jelenlegi változat]"
 
@@ -7300,7 +7300,7 @@ msgstr "<strong>HIBA</strong>: A jelszó-mező üres."
 msgid "<strong>ERROR</strong>: Your account has been marked as a spammer."
 msgstr "<strong>HIBA</strong>: a felhasználói fiók spamnek lett megjelölve."
 
-#: wp-includes/functions.php:5058 wp-includes/user.php:278
+#: wp-includes/functions.php:5054 wp-includes/user.php:278
 msgid "Please log in again."
 msgstr "Ismételten be kell jelentkezni."
 
@@ -7308,7 +7308,7 @@ msgstr "Ismételten be kell jelentkezni."
 msgid "Sidebar %d"
 msgstr "Oldalsáv %d"
 
-#: wp-includes/wp-db.php:3142
+#: wp-includes/wp-db.php:3150
 msgid "<strong>ERROR</strong>: WordPress %1$s requires MySQL %2$s or higher"
 msgstr "<strong>HIBA</strong>: A WordPress %1$s futtatásához legalább MySQL %2$s, vagy magasabb verzió szükséges"
 
@@ -7406,7 +7406,7 @@ msgstr "Ellenőrizni kell a megadott e-mail fiókot - az új jelszó elküldve."
 
 #: wp-login.php:860
 msgid "Registration complete. Please check your email."
-msgstr "A regisztráció sikeres. Ellenőrizni kell a megadott e-mail címet."
+msgstr "A regisztráció sikeres, amelyről értesítést küldtünk a megadott e-mail címre."
 
 #: wp-mail.php:34
 msgid "Slow down cowboy, no need to check for new mails so often!"
@@ -7558,7 +7558,7 @@ msgstr "Honlap neve"
 
 #: wp-includes/comment-template.php:2130 wp-login.php:723
 msgid "Email"
-msgstr "Email"
+msgstr "E-mail cím"
 
 #: wp-includes/class-wp-xmlrpc-server.php:553
 msgid "Allow people to post comments on new articles"
@@ -7615,7 +7615,7 @@ msgid "Website"
 msgstr "Honlap"
 
 #: wp-includes/admin-bar.php:734 wp-includes/class-wp-customize-widgets.php:418
-#: wp-includes/functions.php:3539
+#: wp-includes/functions.php:3535
 msgid "Widgets"
 msgstr "Widgetek"
 
@@ -7699,7 +7699,7 @@ msgstr "Címke: "
 msgid "Comments (%s)"
 msgstr "%s hozzászólás"
 
-#: wp-includes/post-template.php:832
+#: wp-includes/post-template.php:829
 msgid "Pages:"
 msgstr "Oldalak:"
 
@@ -7811,7 +7811,7 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "Hozzászólás"
 
-#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2502
+#: wp-includes/deprecated.php:3122 wp-includes/functions.php:2498
 msgid "Are you sure you want to do this?"
 msgstr "Biztosan ezt szeretnénk?"
 
@@ -7957,7 +7957,7 @@ msgstr "Névtelen"
 msgid "RSS"
 msgstr "RSS"
 
-#: wp-includes/functions.php:2119
+#: wp-includes/functions.php:2115
 msgid "Invalid file type"
 msgstr "Érvénytelen fájltípus"
 
@@ -8194,9 +8194,9 @@ msgstr "Egyéb"
 #: wp-includes/pluggable.php:1446 wp-includes/pluggable.php:1594
 #: wp-includes/pluggable.php:1717
 msgid "Email: %s"
-msgstr "E-mail: %s"
+msgstr "E-mail cím: %s"
 
-#: wp-includes/post-template.php:1143 wp-includes/theme-compat/sidebar.php:90
+#: wp-includes/post-template.php:1140 wp-includes/theme-compat/sidebar.php:90
 #: wp-includes/widgets/class-wp-widget-pages.php:31
 #: wp-includes/widgets/class-wp-widget-pages.php:55
 msgid "Pages"
@@ -8253,7 +8253,7 @@ msgstr "Hiba történt az aktiváló folyamat során."
 msgid "Username:"
 msgstr "Felhasználónév:"
 
-#: wp-activate.php:116 wp-includes/post-template.php:1539
+#: wp-activate.php:116 wp-includes/post-template.php:1536
 msgid "Password:"
 msgstr "Jelszó:"
 

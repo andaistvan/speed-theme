@@ -3,8 +3,8 @@
 	Donate link: http://pickplugins.com
 	Tags: accordion, accordions, Responsive accordions, accordions plugin, jQuery accordions, accordions short-code, accordions Widget, accordions plugin wordpress, accordions plugin jquery, tabs, jquery tabs, tab, responsive tabs
 	Requires at least: 3.8
-	Tested up to: 4.5
-	Stable tag: 2.0.7
+	Tested up to: 4.5.1
+	Stable tag: 2.0.8
 	License: GPLv2 or later
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -94,6 +94,9 @@ then paste this shortcode anywhere in your page to display accordions<br />
 
 == Changelog ==
 
+	= 2.0.8 =
+    * 06/05/2016 - update - font aswesome latest version added.
+    * 06/05/2016 - update - jquery-ui minified & latest version added.	
 
 	= 2.0.7 =
     * 18/04/2016 - update - minor issue update.

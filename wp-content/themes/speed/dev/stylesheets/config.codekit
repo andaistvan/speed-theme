@@ -115,12 +115,12 @@
 		"useLibsass": 0
 		},
 	"\/sass\/ubermenu-custom.scss": {
-		"createSourceMap": 1,
+		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 10,
 		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/sass\/ubermenu-custom.scss",
 		"outputAbbreviatedPath": "\/Applications\/MAMP\/htdocs\/speed-st\/wp-content\/plugins\/ubermenu\/custom\/custom.css",
 		"outputPathIsOutsideProject": 1,

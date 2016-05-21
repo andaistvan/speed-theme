@@ -3,7 +3,7 @@
 Plugin Name: Accordions
 Plugin URI: http://www.pickplugins.com/item/accordions-html-css3-responsive-accordion-grid-for-wordpress/
 Description: Fully responsive and mobile ready accordion grid for wordpress.
-Version: 2.0.7
+Version: 2.0.8
 Author: pickplugins
 Author URI: http://pickplugins.com
 License: GPLv2 or later
@@ -26,8 +26,8 @@ class Accordions{
 		define('accordions_conatct_url', 'http://pickplugins.com/contact' );
 		define('accordions_qa_url', 'http://www.pickplugins.com/questions/' );
 		define('accordions_plugin_name', 'Accordions' );
-		define('accordions_plugin_version', '2.0.7' );
-		define('accordions_customer_type', 'free' );	 // pro & free	
+		define('accordions_plugin_version', '2.0.8' );
+		define('accordions_customer_type', 'free' );
 		define('accordions_share_url', 'https://wordpress.org/plugins/accordions/' );
 		define('accordions_tutorial_video_url', '//www.youtube.com/embed/h2wNFJaaY8s?rel=0' );
 
@@ -78,11 +78,11 @@ class Accordions{
 		wp_enqueue_script( 'jquery-ui-core' );
 		wp_enqueue_script('jquery-ui-accordion');
 		wp_enqueue_script('jquery-ui-tabs');		
-		wp_enqueue_style('jquery-ui', plugins_url( 'assets/frontend/css/jquery-ui.css', __FILE__ ));
+		wp_enqueue_style('jquery-ui', plugins_url( 'assets/frontend/css/jquery-ui.min.css', __FILE__ ));
 		wp_enqueue_style('accordions_style', plugins_url( 'assets/frontend/css/style.css', __FILE__ ));
 		wp_enqueue_style('accordions_themes.style', plugins_url( 'assets/global/css/themes.style.css', __FILE__ ));
 		wp_enqueue_style('accordions_themes.Tabs.style', plugins_url( 'assets/global/css/themesTabs.style.css', __FILE__ ));		
-		wp_enqueue_style('font-awesome', plugins_url( 'assets/global/css/font-awesome.css', __FILE__ ));				
+		wp_enqueue_style('font-awesome', plugins_url( 'assets/global/css/font-awesome.min.css', __FILE__ ));				
 
 		}
 
@@ -94,7 +94,7 @@ class Accordions{
 		wp_enqueue_script('accordions_admin_js', plugins_url( 'assets/admin/js/scripts.js' , __FILE__ ) , array( 'jquery' ));
 
 		wp_enqueue_style('accordions_admin_style', plugins_url( 'assets/admin/css/style.css', __FILE__ ));
-		wp_enqueue_style('font-awesome', plugins_url( 'assets/global/css/font-awesome.css', __FILE__ ));
+		wp_enqueue_style('font-awesome', plugins_url( 'assets/global/css/font-awesome.min.css', __FILE__ ));
 		
 		//ParaAdmin
 		wp_enqueue_style('ParaAdmin', plugins_url( 'assets/admin/ParaAdmin/css/ParaAdmin.css', __FILE__ ));

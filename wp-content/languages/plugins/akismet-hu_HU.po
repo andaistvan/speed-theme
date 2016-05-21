@@ -7,7 +7,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/1.1.0-alpha\n"
+"X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Development (trunk)\n"
 
 #: views/config.php:30
@@ -228,12 +228,12 @@ msgstr[0] "A spam a<a href=\"%1$s\">spam tárolóban</a> 1 napnál idősebb, és
 msgstr[1] "A spam a<a href=\"%1$s\">spam tárolóban</a> %2$d napnál idősebb, és automatikusan törlésre került."
 
 #. Plugin URI of the plugin/theme
-msgid "http://akismet.com/"
-msgstr "http://akismet.com/"
+msgid "https://akismet.com/"
+msgstr ""
 
 #. Description of the plugin/theme
-msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started: 1) Click the \"Activate\" link to the left of this description, 2) <a href=\"http://akismet.com/get/\">Sign up for an Akismet plan</a> to get an API key, and 3) Go to your Akismet configuration page, and save your API key."
-msgstr "A milliók által használt Akismet valószínűleg a világon az egyik legjobb út ahhoz, hogy <strong>megvédjük a honlapunkat a nem kívánatos spam-ektől</strong>. Egyszerű a folyamat: 1) Kattintsunk a jelen leírás bal oldalán lévő \"Bekapcsolás\" hivatkozásra, 2) <a href=\"http://akismet.com/get/\">Feliratkozás egy Akismet csomagra</a>, hogy megkapjuk a szükséges API kulcsot, és 3) Irány az Akismet konfigurációs oldala, ahol a kapott API kulcsot el kell menteni."
+msgid "Used by millions, Akismet is quite possibly the best way in the world to <strong>protect your blog from spam</strong>. It keeps your site protected even while you sleep. To get started: 1) Click the \"Activate\" link to the left of this description, 2) <a href=\"https://akismet.com/get/\">Sign up for an Akismet plan</a> to get an API key, and 3) Go to your Akismet configuration page, and save your API key."
+msgstr ""
 
 #: class.akismet-admin.php:802
 msgid "Please check your <a href=\"%s\">Akismet configuration</a> and contact your web host if problems persist."
@@ -406,8 +406,8 @@ msgid "Automattic"
 msgstr "Automattic"
 
 #. Author URI of the plugin/theme
-msgid "http://automattic.com/wordpress-plugins/"
-msgstr "http://automattic.com/wordpress-plugins/"
+msgid "https://automattic.com/wordpress-plugins/"
+msgstr ""
 
 #: class.akismet-admin.php:70
 msgid "Comment History"
@@ -667,11 +667,11 @@ msgstr "Az Akismet ezt a hozzászólást spam-ként érzékelte egy automatikus 
 msgid "Akismet cleared this comment during an automatic retry."
 msgstr "A hozzászólást az Akismet tisztította meg egy automatikus ismétlés közben."
 
-#: class.akismet.php:1090
+#: class.akismet.php:1096
 msgid "Akismet %s requires WordPress %s or higher."
 msgstr "Az Akismet %s használatához WordPress %s, vagy frissebb verzió szükséges."
 
-#: class.akismet.php:1090 views/notice.php:24
+#: class.akismet.php:1096 views/notice.php:24
 msgid "Please <a href=\"%1$s\">upgrade WordPress</a> to a current version, or <a href=\"%2$s\">downgrade to version 2.4 of the Akismet plugin</a>."
 msgstr "<a href=\"%1$s\">Frissítsük a WordPress.t</a> az aktuális verzióra, vagy <a href=\"%2$s\">használjuk az Akismet bővítmény 2.4-es verzióját</a>."
 

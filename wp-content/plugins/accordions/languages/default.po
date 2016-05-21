@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: accordions\n"
-"POT-Creation-Date: 2016-02-25 20:51+0600\n"
-"PO-Revision-Date: 2016-02-25 20:51+0600\n"
+"POT-Creation-Date: 2016-05-06 07:54+0600\n"
+"PO-Revision-Date: 2016-05-06 07:54+0600\n"
 "Last-Translator: \n"
 "Language-Team: PickPlugins <support@pickplugins.com>\n"
 "Language: en\n"
@@ -42,30 +42,30 @@ msgid ""
 "forum"
 msgstr ""
 
-#: menu/help.php:61
+#: menu/help.php:69
 msgid "Submit Reviews."
 msgstr ""
 
-#: menu/help.php:62
+#: menu/help.php:70
 msgid ""
 "We are working hard to build some awesome plugins for you and spend thousand "
 "hour for plugins. we wish your three(3) minute by submitting five star "
 "reviews at wordpress.org. if you have any issue please submit at forum."
 msgstr ""
 
-#: menu/help.php:73
+#: menu/help.php:79
 msgid "Please Share"
 msgstr ""
 
-#: menu/help.php:74
+#: menu/help.php:80
 msgid "If you like this plugin please share with your social share network."
 msgstr ""
 
-#: menu/help.php:84
+#: menu/help.php:90
 msgid "Video Tutorial"
 msgstr ""
 
-#: menu/help.php:85
+#: menu/help.php:91
 msgid "Please watch this video tutorial."
 msgstr ""
 
@@ -101,7 +101,7 @@ msgstr ""
 msgid "Style"
 msgstr ""
 
-#: meta.php:140 meta.php:185 meta.php:394 meta.php:456
+#: meta.php:140 meta.php:185 meta.php:387 meta.php:449
 msgid "Content"
 msgstr ""
 
@@ -127,15 +127,15 @@ msgstr ""
 msgid "Tabs Shortcode"
 msgstr ""
 
-#: meta.php:171 meta.php:530
+#: meta.php:171 meta.php:523
 msgid "Collapsible"
 msgstr ""
 
-#: meta.php:174 meta.php:533
+#: meta.php:174 meta.php:526
 msgid "True"
 msgstr ""
 
-#: meta.php:175 meta.php:534
+#: meta.php:175 meta.php:527
 msgid "False"
 msgstr ""
 
@@ -171,7 +171,7 @@ msgstr ""
 msgid "Text Align:"
 msgstr ""
 
-#: meta.php:269 meta.php:346
+#: meta.php:269
 msgid "Left"
 msgstr ""
 
@@ -179,7 +179,7 @@ msgstr ""
 msgid "Center"
 msgstr ""
 
-#: meta.php:271 meta.php:347
+#: meta.php:271
 msgid "Right"
 msgstr ""
 
@@ -226,69 +226,65 @@ msgstr ""
 msgid "Icon font size."
 msgstr ""
 
-#: meta.php:343
-msgid "Icon Position."
-msgstr ""
-
-#: meta.php:356
+#: meta.php:349
 msgid "Accordions Header."
 msgstr ""
 
-#: meta.php:358
+#: meta.php:351
 msgid "Default Background Color."
 msgstr ""
 
-#: meta.php:362
+#: meta.php:355
 msgid "Active Background Color."
 msgstr ""
 
-#: meta.php:366
+#: meta.php:359
 msgid "Accordions Header Font Color."
 msgstr ""
 
-#: meta.php:369
+#: meta.php:362
 msgid "Accordions Header Font Size."
 msgstr ""
 
-#: meta.php:376
+#: meta.php:369
 msgid "Accordions Content."
 msgstr ""
 
-#: meta.php:377
+#: meta.php:370
 msgid "Accordions Content Font Color."
 msgstr ""
 
-#: meta.php:380
+#: meta.php:373
 msgid "Accordions Content Font Size."
 msgstr ""
 
-#: meta.php:383
+#: meta.php:376
 msgid "Accordions Content Background Color."
 msgstr ""
 
-#: meta.php:395
+#: meta.php:388
 msgid ""
 "You can sorting accordion by dragging each title, click to expand title and "
 "see the input."
 msgstr ""
 
-#: meta.php:398
+#: meta.php:391
 msgid "Add"
 msgstr ""
 
-#: meta.php:446
+#: meta.php:439
 msgid "Hide on Frontend"
 msgstr ""
 
-#: meta.php:452
+#: meta.php:445
 msgid "Header"
 msgstr ""
 
-#: meta.php:499
+#: meta.php:492
 msgid "Custom CSS for this Accordions"
 msgstr ""
 
-#: meta.php:500
+#: meta.php:493
 msgid ""
 "Do not use &lt;style>&lt;/style> tag, you can use bellow prefix to your css, "
 "sometime you need use \"!important\" to overrid."

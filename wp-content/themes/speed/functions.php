@@ -45,6 +45,11 @@ function speed_setup()
         'primary' => esc_html__('Primary', 'speed'),
     ));
 
+    // foundation navigation
+    register_nav_menus(array(
+        'topbar-menu' => esc_html__('Top Bar Menu', 'speed'),
+    ));
+
     /*
      * Switch default core markup for search form, comment form, and comments
      * to output valid HTML5.
@@ -127,9 +132,9 @@ function speed_scripts()
 
     wp_enqueue_script('speed-f6_main_script', get_template_directory_uri().'/dev/foundation6/bower_components/foundation-sites/dist/foundation.js');
 
-    wp_enqueue_script('speed-f6init', get_template_directory_uri().'/dev/foundation6/js/app.js');
+   //  wp_enqueue_script('speed-f6init', get_template_directory_uri().'/dev/foundation6/js/app.js');
 
-    wp_enqueue_script('speed-navigation', get_template_directory_uri().'/js/navigation.js', array(), '20151215', true);
+   //  wp_enqueue_script('speed-navigation', get_template_directory_uri().'/js/navigation.js', array(), '20151215', true);
 
     wp_enqueue_script('speed-skip-link-focus-fix', get_template_directory_uri().'/js/skip-link-focus-fix.js', array(), '20151215', true);
 
@@ -148,6 +153,11 @@ require get_template_directory().'/inc/custom-header.php';
  * Custom template tags for this theme.
  */
 require get_template_directory().'/inc/template-tags.php';
+
+/**
+ * foundation navigation walker.
+ */
+require get_template_directory().'/inc/foundation-nav.php';
 
 /**
  * Custom functions that act independently of the theme templates.
