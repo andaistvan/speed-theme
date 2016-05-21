@@ -20,8 +20,8 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-   <div class="row">
-      <div id="teszt" class="small-12 columns">
+   <div class="expanded row header">
+      <div id="teszt" class="large-12 columns">
 
          <div class="site-branding">
    			<?php
@@ -41,37 +41,33 @@
 
       </div><!-- small-12 columns -->
 
-      <div class="small-12 columns" data-sticky-container>
-         <div data-sticky data-margin-top='0' data-top-anchor="teszt:bottom" data-btm-anchor="content:bottom" style="width:100%">
+      <div class="large-12 columns">
+         <div data-sticky-container>
+            <div data-sticky data-margin-top='0' data-top-anchor="teszt:bottom" data-btm-anchor="content:bottom">
 
-         <!-- .site-navigation -->
-            <?php
-            echo'
+            <!-- .site-navigation -->
+               <?php
+               echo'
 
-            <div class="top-bar">
-               <div class="top-bar-right">';
-                    wp_nav_menu(array(
-                        'container' => false,
-                        'menu' => __('Top Bar Menu', 'speed'),
-                        'menu_class' => 'dropdown menu',
-                        'theme_location' => 'topbar-menu',
-                        'items_wrap' => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
-                        //Recommend setting this to false, but if you need a fallback...
-                        'fallback_cb' => 'f6_topbar_menu_fallback',
-                        'walker' => new F6_TOPBAR_MENU_WALKER(),
-                    ));
-                echo'
-               </div>
-            </div>'; ?><!-- .site-navigation -->
-      </div><!-- sticky data.-->
-   </div><!-- small-12 columns sticky cont.-->
+               <div class="top-bar fluid">
+                  <div class="top-bar-right">';
+                       wp_nav_menu(array(
+                           'container' => false,
+                           'menu' => __('Top Bar Menu', 'speed'),
+                           'menu_class' => 'dropdown menu',
+                           'theme_location' => 'topbar-menu',
+                           'items_wrap' => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
+                           //Recommend setting this to false, but if you need a fallback...
+                           'fallback_cb' => 'f6_topbar_menu_fallback',
+                           'walker' => new F6_TOPBAR_MENU_WALKER(),
+                       ));
+                   echo'
+                  </div>
+               </div>'; ?><!-- .site-navigation -->
+            </div><!-- sticky data.-->
+         </div><!-- data-sticky-container -->
+      </div><!-- small-12 columns sticky cont.-->
 
    </div><!-- .row -->
-
-
-
-
-
-	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
