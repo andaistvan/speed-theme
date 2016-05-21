@@ -19,44 +19,54 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	
 
-	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-            if (is_front_page() && is_home()) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-			<?php
-            endif;
+   <div class="row">
+      <div id="teszt" class="small-12 columns">
 
-            $description = get_bloginfo('description', 'display');
-            if ($description || is_customize_preview()) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-            endif; ?>
-		</div><!-- .site-branding -->
+         <div class="site-branding">
+   			<?php
+               if (is_front_page() && is_home()) : ?>
+   				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+   			<?php else : ?>
+   				<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+   			<?php
+               endif;
 
-      <!-- .site-navigation -->
-      <?php
-      echo'
-      <div class="top-bar">
-      	<div class="top-bar-right">';
-              wp_nav_menu(array(
-                  'container' => false,
-                  'menu' => __('Top Bar Menu', 'speed'),
-                  'menu_class' => 'dropdown menu',
-                  'theme_location' => 'topbar-menu',
-                  'items_wrap' => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
-                  //Recommend setting this to false, but if you need a fallback...
-                  'fallback_cb' => 'f6_topbar_menu_fallback',
-                  'walker' => new F6_TOPBAR_MENU_WALKER(),
-              ));
-          echo'
-      	</div>
-      </div>'; ?><!-- .site-navigation -->
+               $description = get_bloginfo('description', 'display');
+               if ($description || is_customize_preview()) : ?>
+   				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+   			<?php
+               endif; ?>
+   		</div><!-- .site-branding -->
 
+      </div><!-- small-12 columns -->
+
+      <div class="small-12 columns" data-sticky-container>
+         <div data-sticky data-margin-top='0' data-top-anchor="teszt:bottom" data-btm-anchor="content:bottom" style="width:100%">
+
+         <!-- .site-navigation -->
+            <?php
+            echo'
+
+            <div class="top-bar">
+               <div class="top-bar-right">';
+                    wp_nav_menu(array(
+                        'container' => false,
+                        'menu' => __('Top Bar Menu', 'speed'),
+                        'menu_class' => 'dropdown menu',
+                        'theme_location' => 'topbar-menu',
+                        'items_wrap' => '<ul id="%1$s" class="%2$s" data-dropdown-menu>%3$s</ul>',
+                        //Recommend setting this to false, but if you need a fallback...
+                        'fallback_cb' => 'f6_topbar_menu_fallback',
+                        'walker' => new F6_TOPBAR_MENU_WALKER(),
+                    ));
+                echo'
+               </div>
+            </div>'; ?><!-- .site-navigation -->
+      </div><!-- sticky data.-->
+   </div><!-- small-12 columns sticky cont.-->
+
+   </div><!-- .row -->
 
 
 
