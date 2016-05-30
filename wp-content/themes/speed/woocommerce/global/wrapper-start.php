@@ -20,4 +20,4 @@ if (!defined('ABSPATH')) {
 }
 
 ?>
-<div class="small-12 columns"><div id="woowrap">
+<div id="woowrap guide">

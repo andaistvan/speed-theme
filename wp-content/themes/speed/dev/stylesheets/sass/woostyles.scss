@@ -1,3 +1,36 @@
 #woowrap{
-   border: 1px solid $temp-blue;
+
+}
+
+
+// archive products page
+
+// excerpt on archive page
+.woocommerce ul.products li a h3{
+   font-size: 18px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+// excerpt on archive page
+.woocommerce ul.products li a div{
+   color: black;
+   font-size: 14px;
+}
+
+// single product page
+
+// variations
+.woocommerce div.product form.cart .variations tbody{
+   border: none;
+}
+// label
+.woocommerce div.product form.cart .variations td.label{
+   background: none;
+   padding-top: 15px;
+}
+
+// select dropdown
+.woocommerce div.product form.cart .variations select{
+   width: 70%;
 }

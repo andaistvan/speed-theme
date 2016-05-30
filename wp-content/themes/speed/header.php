@@ -20,29 +20,24 @@
 <body <?php body_class(); ?>>
 <div id="page" class="site">
 
-   <div class="row header">
+   <div class="row header guide">
       <div id="teszt" class="large-12 columns">
 
          <div class="site-branding">
    			<?php
                if (is_front_page() && is_home()) : ?>
    				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-   			<?php else : ?>
+            <?php else : ?>
    				<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
-   			<?php
-               endif;
 
-               $description = get_bloginfo('description', 'display');
-               if ($description || is_customize_preview()) : ?>
-   				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
    			<?php
                endif; ?>
-               <?php echo do_shortcode('[lsphe-header]'); ?>
+               <!-- <?php echo do_shortcode('[lsphe-header]'); ?> -->
    		</div><!-- .site-branding -->
 
       </div><!-- small-12 columns -->
 
-      <div class="large-12 columns">
+      <div class="large-12 columns menu-bg">
          <div data-sticky-container>
             <div data-sticky data-margin-top='0' data-top-anchor="teszt:bottom" data-btm-anchor="content:bottom">
 
@@ -50,8 +45,8 @@
                <?php
                echo'
 
-               <div class="top-bar fluid">
-                  <div class="top-bar-right">';
+               <div class="top-bar">
+                  <div class="top-bar-left">';
                        wp_nav_menu(array(
                            'container' => false,
                            'menu' => __('Top Bar Menu', 'speed'),
@@ -73,5 +68,3 @@
 
 	<div id="content" class="site-content">
       <div class="row">
-
-      

@@ -2102,6 +2102,17 @@ custom styles
 /*--------------------------------------------------------------
 # site modules
 --------------------------------------------------------------*/
+body {
+  background: #f2f2f2;
+  padding-top: 20px; }
+
+.clear {
+  clear: both; }
+
+.header {
+  background: white;
+  z-index: 990; }
+
 .sticky-container {
   width: 100%; }
 
@@ -2111,15 +2122,26 @@ custom styles
 .header {
   width: 100%; }
 
-.guide {
-  border: 1px solid #008CBA; }
+.menu-bg {
+  background: #e6e6e6; }
 
-.clear {
-  clear: both; }
+.site-footer {
+  background: white;
+  margin-bottom: 20px;
+  background: #e6e6e6;
+  padding: 50px 0; }
+  .site-footer .site-info {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; }
+
+.site-content .row {
+  background: white; }
 
 .homeslider-cont {
   width: 100%;
   height: 300px;
+  margin-top: 30px;
   background: #008CBA; }
   .homeslider-cont h1 {
     color: white;
@@ -2132,8 +2154,24 @@ custom styles
 /*--------------------------------------------------------------
 # woostyles
 --------------------------------------------------------------*/
-#woowrap {
-  border: 1px solid #008CBA; }
+.woocommerce ul.products li a h3 {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.woocommerce ul.products li a div {
+  color: black;
+  font-size: 14px; }
+
+.woocommerce div.product form.cart .variations tbody {
+  border: none; }
+
+.woocommerce div.product form.cart .variations td.label {
+  background: none;
+  padding-top: 15px; }
+
+.woocommerce div.product form.cart .variations select {
+  width: 70%; }
 
 /*--------------------------------------------------------------
 # pages

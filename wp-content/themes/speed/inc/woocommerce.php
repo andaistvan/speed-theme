@@ -16,7 +16,7 @@ function woo_remove_category_products_count()
 // remove_action('woocommerce_before_shop_loop', 'woocommerce_catalog_ordering', 30);
 
 // search result
-// remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
+remove_action('woocommerce_before_shop_loop', 'woocommerce_result_count', 20);
 
 // star ratings
 remove_action('woocommerce_after_shop_loop_item_title', 'woocommerce_template_loop_rating', 5);
@@ -34,6 +34,17 @@ remove_action('woocommerce_before_shop_loop_item_title', 'woocommerce_template_l
 //     return $price;
 // }
 
+// remove related products from single product page
+remove_action('woocommerce_after_single_product_summary', 'woocommerce_output_related_products', 20);
+
+// remove breadcrumb on single product page
+remove_action('woocommerce_before_main_content',
+'woocommerce_breadcrumb', 20);
+
+// remove single product meta elements
+remove_action('woocommerce_single_product_summary',
+'woocommerce_template_single_meta', 40);
+
 // remove cart everywhere
 // remove_action('woocommerce_after_shop_loop_item', 'woocommerce_template_loop_add_to_cart', 10);
 // remove_action('woocommerce_single_product_summary', 'woocommerce_template_single_add_to_cart', 30);
@@ -49,3 +60,6 @@ function woo_remove_product_tabs($tabs)
 
     return $tabs;
 }
+
+// add excerpt to archive page
+add_action('woocommerce_archive_excerpt', 'woocommerce_template_single_excerpt', 11);
