@@ -32,7 +32,7 @@
 
    			<?php
                endif; ?>
-               <!-- <?php echo do_shortcode('[lsphe-header]'); ?> -->
+               <?php echo do_shortcode('[lsphe-header]'); ?>
    		</div><!-- .site-branding -->
 
       </div><!-- small-12 columns -->
