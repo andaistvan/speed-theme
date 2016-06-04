@@ -20,7 +20,7 @@ if (!defined('ABSPATH')) {
 }
 
 get_header('shop'); ?>
-<?php get_template_part('parts/homeslider-cont') ?>
+<!-- <?php get_template_part('parts/homeslider-cont') ?> -->
 
 
 

@@ -2,8 +2,20 @@
 
 }
 
-
+// *********************
 // archive products page
+// *********************
+
+
+// grid column number
+@media (min-width: 768px){
+   .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{
+      margin: 0 3.8% 2.992em 0;
+      width: 29%;
+   }
+
+}
+
 
 // excerpt on archive page
 .woocommerce ul.products li a h3{
@@ -33,4 +45,21 @@
 // select dropdown
 .woocommerce div.product form.cart .variations select{
    width: 70%;
+}
+
+// *********************
+// MY account
+// *********************
+div#customer_login{
+   h2{
+      font-size: 20px;
+   }
+}
+
+h2#registration{
+   font-size: 20px;
+}
+
+.tabs-content{
+   margin-bottom: 30px;
 }

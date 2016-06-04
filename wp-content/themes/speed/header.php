@@ -21,25 +21,82 @@
 <div id="page" class="site">
 
    <div class="row header guide">
-      <div id="teszt" class="large-12 columns">
+      <div id="header-top" class="large-12 columns">
 
-         <div class="site-branding">
-   			<?php
-               if (is_front_page() && is_home()) : ?>
-   				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
-            <?php else : ?>
-   				<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
+         <div class="header-top-innner">
+            <div class="site-branding">
+      			<?php
+                  if (is_front_page() && is_home()) : ?>
+      				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+               <?php else : ?>
+      				<p class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></p>
 
-   			<?php
-               endif; ?>
-               <!-- <?php echo do_shortcode('[lsphe-header]'); ?> -->
-   		</div><!-- .site-branding -->
+      			<?php
+                  endif; ?>
+      		</div><!-- .site-branding -->
 
-      </div><!-- small-12 columns -->
+            <div class="shop-elements">
+<!-- my account -->
+               <?php if (is_user_logged_in()) {
+    ?>
+  <a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));
+    ?>" title="<?php _e('My Account', 'woothemes');
+    ?>"><?php _e('fiókom', 'woothemes');
+    ?></a>
+<?php
+
+} else {
+    ?>
+  <a href="<?php echo get_permalink(get_option('woocommerce_myaccount_page_id'));
+    ?>" title="<?php _e('Login / Register', 'woothemes');
+    ?>"><?php _e('Login / Register', 'woothemes');
+    ?></a>
+<?php
+
+} ?>
+
+<!-- CHEcKOUT -->
+               <?php global $woocommerce;
+
+if (sizeof($woocommerce->cart->cart_contents) > 0) :
+    echo '<a href="'.$woocommerce->cart->get_checkout_url().'" title="'.__('Checkout').'">'.__('pénztár').'</a>';
+endif; ?>
+
+<!-- cart -->
+<?php
+global $woocommerce;
+
+// get cart quantity
+$qty = $woocommerce->cart->get_cart_contents_count();
+
+// get cart total
+$total = $woocommerce->cart->get_cart_total();
+
+// get cart url
+$cart_url = $woocommerce->cart->get_cart_url();
+
+// if multiple products in cart
+if ($qty > 1) {
+    echo '<a href="'.$cart_url.'">'.$qty.' termék | '.$total.'</a>';
+}
+
+// if single product in cart
+if ($qty == 1) {
+    echo '<a href="'.$cart_url.'">1 termék | '.$total.'</a>';
+}
+
+?><!-- cart -->
+
+
+            </div><!-- shop-elements -->
+
+         </div><!-- header-top-innner -->
+
+      </div><!-- large-12 columns -->
 
       <div class="large-12 columns menu-bg">
          <div data-sticky-container>
-            <div data-sticky data-margin-top='0' data-top-anchor="teszt:bottom" data-btm-anchor="content:bottom">
+            <div data-sticky data-margin-top='0' data-top-anchor="header-top:bottom" data-btm-anchor="content:bottom">
 
             <!-- .site-navigation -->
                <?php

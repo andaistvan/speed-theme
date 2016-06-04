@@ -2111,7 +2111,14 @@ body {
 
 .header {
   background: white;
-  z-index: 990; }
+  z-index: 990;
+  width: 100%; }
+
+#header-top {
+  background: #4A4A4A; }
+
+.header-top-innner {
+  width: 100%; }
 
 .sticky-container {
   width: 100%; }
@@ -2119,11 +2126,26 @@ body {
 .sticky {
   width: 100%; }
 
-.header {
-  width: 100%; }
-
 .menu-bg {
   background: #e6e6e6; }
+
+.site-branding {
+  display: inline-block;
+  margin-top: 10px; }
+
+.site-title a {
+  color: white;
+  font-weight: bolder;
+  padding-left: 20px; }
+
+.shop-elements {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px; }
+  .shop-elements a {
+    color: white;
+    font-size: 14px;
+    padding-left: 20px; }
 
 .site-footer {
   background: white;
@@ -2142,11 +2164,18 @@ body {
   width: 100%;
   height: 300px;
   margin-top: 30px;
-  background: #008CBA; }
+  background: #EFEFEF; }
   .homeslider-cont h1 {
-    color: white;
+    color: #4A4A4A;
     margin-left: 50px;
     padding-top: 50px; }
+
+.padding20 {
+  padding: 0 30px; }
+
+h1.entry-title {
+  font-size: 25px;
+  font-weight: bold; }
 
 /*--------------------------------------------------------------
 # widgets
@@ -2154,6 +2183,10 @@ body {
 /*--------------------------------------------------------------
 # woostyles
 --------------------------------------------------------------*/
+@media (min-width: 768px) {
+  .woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+    margin: 0 3.8% 2.992em 0;
+    width: 29%; } }
 .woocommerce ul.products li a h3 {
   font-size: 18px;
   font-weight: bold;
@@ -2172,6 +2205,15 @@ body {
 
 .woocommerce div.product form.cart .variations select {
   width: 70%; }
+
+div#customer_login h2 {
+  font-size: 20px; }
+
+h2#registration {
+  font-size: 20px; }
+
+.tabs-content {
+  margin-bottom: 30px; }
 
 /*--------------------------------------------------------------
 # pages
