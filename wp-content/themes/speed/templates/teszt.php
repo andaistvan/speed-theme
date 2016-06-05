@@ -36,6 +36,8 @@ get_header(); ?>
                   </div>
                 </li>
                </ul><!-- accordion teszt -->
+
+               <?php dynamic_sidebar('topbar-sidebar') ?>
             </div>   <!-- small-6 large-centered columns -->
          </div>   <!-- row -->
 

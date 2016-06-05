@@ -62,30 +62,11 @@ if (sizeof($woocommerce->cart->cart_contents) > 0) :
     echo '<a href="'.$woocommerce->cart->get_checkout_url().'" title="'.__('Checkout').'">'.__('pénztár').'</a>';
 endif; ?>
 
-<!-- cart -->
-<?php
-global $woocommerce;
 
-// get cart quantity
-$qty = $woocommerce->cart->get_cart_contents_count();
-
-// get cart total
-$total = $woocommerce->cart->get_cart_total();
-
-// get cart url
-$cart_url = $woocommerce->cart->get_cart_url();
-
-// if multiple products in cart
-if ($qty > 1) {
-    echo '<a href="'.$cart_url.'">'.$qty.' termék | '.$total.'</a>';
-}
-
-// if single product in cart
-if ($qty == 1) {
-    echo '<a href="'.$cart_url.'">1 termék | '.$total.'</a>';
-}
-
-?><!-- cart -->
+<!-- cart widget dropdown -->
+<div id="wc-cart-dropdown-cont">
+   <?php dynamic_sidebar('topbar-sidebar') ?>
+</div>
 
 
             </div><!-- shop-elements -->
@@ -98,7 +79,7 @@ if ($qty == 1) {
          <div data-sticky-container>
             <div data-sticky data-margin-top='0' data-top-anchor="header-top:bottom" data-btm-anchor="content:bottom">
 
-            <!-- .site-navigation -->
+<!-- .site-navigation -->
                <?php
                echo'
 
